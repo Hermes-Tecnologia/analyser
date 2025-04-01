@@ -2,7 +2,7 @@
     "name": "hermes-tecnologia/analyser",
     "description": "Utilitario para análise de dados e formatação em Laravel",
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "library",
     "minimum-stability": "dev",
     "prefer-stable": true,
