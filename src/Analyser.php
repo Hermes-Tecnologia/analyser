@@ -17,6 +17,7 @@ class Analyser
     public function __construct($value = null)
     {
         $this->value = $value;
+        //teste
         return $this;
     }
 
