@@ -1,0 +1,44 @@
+{
+    "name": "hermes-tecnologia/analyser",
+    "description": "Utilitario para análise de dados e formatação em Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Serafim",
+            "email": "rdgo.serafim@gmail.com",
+            "homepage": "https://hermestecnologia.com"
+        }
+    ],
+    "homepage": "https://github.com/hermes-tecnologia/analyser",
+    "keywords": ["Laravel", "Analyser"],
+    "require": {
+        "illuminate/support": "^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0",
+        "orchestra/testbench": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "HermesTecnologia\\Analyser\\": "src/"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HermesTecnologia\\Analyser\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HermesTecnologia\\Analyser\\AnalyserServiceProvider"
+            ],
+            "aliases": {
+                "Analyser": "HermesTecnologia\\Analyser\\Facades\\Analyser"
+            }
+        }
+    }
+}
