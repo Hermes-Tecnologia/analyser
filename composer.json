@@ -2,6 +2,9 @@
     "name": "hermes-tecnologia/analyser",
     "description": "Utilitario para análise de dados e formatação em Laravel",
     "license": "MIT",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Rodrigo Serafim",
