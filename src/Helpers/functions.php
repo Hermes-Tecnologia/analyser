@@ -1,6 +1,6 @@
 <?php
 
-use HermesTecnologia\Analyser\Facades\Analyser;
+use HermesTecnologia\Analyser\Analyser;
 
 if (!function_exists('analyse')) {
     function analyse($value) {
