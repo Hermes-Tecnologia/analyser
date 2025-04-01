@@ -62,6 +62,7 @@ class AnalyserServiceProvider extends ServiceProvider
             __DIR__.'/../config/analyser.php' => config_path('analyser.php'),
         ], 'analyser.config');
 
+        
         // Publishing the views.
         /*$this->publishes([
             __DIR__.'/../resources/views' => base_path('resources/views/vendor/hermes-tecnologia'),
